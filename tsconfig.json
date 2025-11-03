@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "lib": ["ESNext"],
+        "types": ["node"],
+        "target": "esnext",
+        "moduleResolution": "nodenext",
+        "strict": false,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "module": "nodenext",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+    },
+    "include": ["src/**/*.ts"],
+     "exclude": ["node_modules", "dist", "src/**/*.test.ts", "src/**/__tests__/*"]
+}
